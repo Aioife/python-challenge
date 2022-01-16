@@ -1,2 +1,2 @@
 # python-challenge
-pypoll and pybank challenges
+pypoll and pybank challenges.
