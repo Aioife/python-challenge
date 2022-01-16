@@ -1,0 +1,15 @@
+import os
+import csv
+
+budget_data.csv = os.path.join("..", "Resources", "budget_data")
+
+# Open and read csv
+with open(budget_data.csv) as csv_file
+    csv_reader = csv.reader(csv_file, delimeter=",")
+
+    # Read in header row first
+    csv_header = next(csv_file)
+    print(f"Header {csv_header}")
+
+    # Read through each row of data after the header
+    for row in csv_reader:
